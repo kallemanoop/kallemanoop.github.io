@@ -14,7 +14,7 @@ Investigating LLMs’ personality traits, conformity, and moral decision boundar
 ### **Retraction Analysis & Scientific Integrity**
 Built Retractometrics, a bibliometric framework quantifying retraction patterns (G-Index, T-Index, H-Index) across top Indian institutions, revealing systemic misconduct in ~70% of top-50 universities.
 
-### **Quantitative Finance & Risk Analytics**
+### **Risk Analytics**
 Modeling volatility and market uncertainty using GARCH and machine learning ensembles for adaptive trading strategies.
 
 ## Projects
