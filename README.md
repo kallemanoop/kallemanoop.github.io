@@ -1,8 +1,3 @@
----
-layout: default
-title: Home
----
-
 Hi, I’m Anoop 👋
 
 I’m a Data Science graduate student at the University of Maryland. I work with data, advanced neural nets and linguistics, and code that actually do something useful. Most of my time goes into building, testing, and breaking down machine learning systems so I can figure out how to make them better.
