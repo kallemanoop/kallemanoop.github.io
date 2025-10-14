@@ -18,12 +18,12 @@ plugins:
 author:
   name: "Anoop Reddy Kallem"
   avatar: "/images/profile_photo.jpg"               
-  bio: "MS Data Science @ UMD. LLM behavior & interpretability • AI for mental health • Volatility & risk analytics."
+  bio: "MS Data Science @ UMD"
   location: "College Park, MD, USA"
   links:
     - label: "Email"
       icon: "fas fa-envelope"
-      url: "mailto:akallem@umd.edu"
+      url: "akallem@umd.edu"
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/kallemanoopreddy/"
