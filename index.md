@@ -15,7 +15,7 @@ My work primarily focuses on:
 
 I am also a freelancer- I like to build models and pipelines from scratch. That is how I got into language models when I built my first SLM which took over 12 hours (on a Turing GPU) to train for a mere 6 layers, 4 attn heads and 7M parameters. 
 
-[Research](/research/) [Education](/education/) • [Work](/work/) • [Contact](/contact/)
+[Research](/research/) [Education](/education/) [Work](/work/) [Contact](/contact/)
 
 ### Recent Updates
 <div class="updates">

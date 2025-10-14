@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 ### Research Focus
-I explore how **data and intelligence interact with human reasoning** — across three core areas:
+I explore how **data and intelligence interact with human reasoning** across three core areas:
 
 ### **Language Model Psychology & Moral Compliance**
 Investigating LLMs’ personality traits, conformity, and moral decision boundaries through interpretability tools such as *logit lens*, *latent probing*, and *causal intervention*.
@@ -18,7 +18,6 @@ Built Retractometrics, a bibliometric framework quantifying retraction patterns 
 Modeling volatility and market uncertainty using GARCH and machine learning ensembles for adaptive trading strategies.
 
 ## Projects
-
 ### **Do LLMs Have a Personality?**
 Psychological alignment in **Mixtral**, **LLaMA3**, **AFM**, and **Exaone** using interpretability-based compliance probes.
 
