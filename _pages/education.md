@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 ### **University of Maryland, College Park**
-#### *M.S. in Data Science (2025–2027)*
+#### M.S. in Data Science (2025–2027)
 **Focus:** Machine Learning, NLP, and Interpretability.
 
 ---

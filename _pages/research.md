@@ -25,5 +25,5 @@ Psychological alignment in **Mixtral**, **LLaMA3**, **AFM**, and **Exaone** usin
 Custom transformer-decoder architecture with Byte-level BPE, RMSNorm, RoPE, and KV cache.
 
 ### **Volatility Forecasting for Effective Risk Management in Financial Markets**
-Conducted a decade-long (2015-2025) study on S&P 500 data comparing GARCH(1,1), historical volatility, and RF.
+Conducted a study on S&P 500 data from 2015-2025 comparing the performances of GARCH(1,1), historical volatility, and RF.
 
