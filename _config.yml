@@ -1,33 +1,47 @@
 title: "Anoop Reddy Kallem"
-description: "Data Science • LLMs • UMD"
-url: "https://kallemanoop.github.io" 
-baseurl: ""  
+name:  "Anoop Reddy Kallem"
+description: "Data Science @ UMD • LLMs • Interpretability • Quant Finance"
+url: "https://kallemanoop.github.io"         # ← your site URL (no trailing slash)
+repository: "kallemanoop/kallemanoop.github.io"
 
-markdown: kramdown
-# Use Minimal Mistakes
+# Use Minimal Mistakes (stable)
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "default"
+minimal_mistakes_skin: "air"                  # clean, academic feel
 
-# GitHub Pages–whitelisted plugins
+# Plugins allowed on GitHub Pages
 plugins:
   - jekyll-include-cache
   - jekyll-feed
   - jekyll-seo-tag
 
-# Site nav (edit labels/links as you like)
-nav:
-  - label: "Home"
-    url: "/"
-  - label: "Education"
-    url: "/pages/education.md"   # or remove
-  - label: "Research"
-    url: "/pages/research.md"
-  - label: "Work"
-    url: "/pages/work.md"
-  - label: "Contact"
-    url: "/pages/contact.md"
+# Profile card data (shows on pages with author_profile: true)
+author:
+  name: "Anoop Reddy Kallem"
+  avatar: "/images/profile_photo.jpg"               
+  bio: "MS Data Science @ UMD. LLM behavior & interpretability • AI for mental health • Volatility & risk analytics."
+  location: "College Park, MD, USA"
+  links:
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:akallem@umd.edu"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/kallemanoopreddy/"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/kallemanoop"
 
-# Social links (fill your URLs)
-social:
-  github: "https://github.com/kallemanoop"
-  linkedin: "https://www.linkedin.com/in/kallemanoopreddy/"
+# Navigation from _data/navigation.yml
+include: ["_pages"]
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Optional: tiny CSS override (keep site airy)
+defaults:
+  - scope:
+      path: ""
+    values:
+      css: "/assets/css/override.css"

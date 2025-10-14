@@ -1,0 +1,11 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Research"
+    url: /research/
+  - title: "Work"
+    url: /work/
+  - title: "Education"
+    url: /education/
+  - title: "Contact"
+    url: /contact/

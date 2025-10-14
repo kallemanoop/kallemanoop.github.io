@@ -1,3 +1,9 @@
+---
+layout: single
+title: "Home"
+author_profile: true
+---
+
 Hi, I’m Anoop 👋
 
 I’m a Data Science graduate student at the University of Maryland. I work with data, advanced neural nets and linguistics, and code that actually do something useful. Most of my time goes into building, testing, and breaking down machine learning systems so I can figure out how to make them better.
@@ -8,6 +14,8 @@ My work primarily focuses on:
 4. **Very broadly on causal inference**
 
 I am also a freelancer- I like to build models and pipelines from scratch. That is how I got into language models when I built my first SLM which took over 12 hours (on a Turing GPU) to train for a mere 6 layers, 4 attn heads and 7M parameters. 
+
+[See my research →](/research/) • [Education →](/education/) • [Work →](/work/) • [Contact →](/contact/)
 
 ### Recent Updates
 <div class="updates">
