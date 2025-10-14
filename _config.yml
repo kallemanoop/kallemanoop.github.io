@@ -1,3 +1,25 @@
 title: "Anoop Reddy Kallem"
-description: "Data Science | Research | UMD"
-theme: minima
+description: "Data Science • LLMs • UMD"
+url: "https://kallemanoop.github.io" 
+baseurl: ""  
+
+markdown: kramdown
+theme: null  # we’re using a custom minimal layout
+
+# Site nav (edit labels/links as you like)
+nav:
+  - label: "Home"
+    url: "/"
+  - label: "Education"
+    url: "/pages/education.md"   # or remove
+  - label: "Research"
+    url: "/pages/research.md"
+  - label: "Work"
+    url: "/pages/work.md"
+  - label: "Contact"
+    url: "/pages/contact.md"
+
+# Social links (fill your URLs)
+social:
+  github: "https://github.com/kallemanoop"
+  linkedin: "https://www.linkedin.com/in/kallemanoopreddy/"

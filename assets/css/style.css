@@ -1,0 +1,89 @@
+:root {
+  --bg: #f6f7f9;
+  --card: #ffffff;
+  --text: #222;
+  --muted: #5a6a7a;
+  --link: #0b63bd;
+  --ring: #d9e2ec;
+}
+
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+/* Top nav */
+.site-nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.5rem;
+  padding: 1rem 2rem;
+  background: var(--card);
+  border-bottom: 1px solid var(--ring);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.site-nav a {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 500;
+}
+.site-nav a:hover { color: var(--link); }
+
+/* Hero */
+.hero {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 1.25rem;
+  padding: 1.25rem 2rem;
+  background: #e9edf2;
+  border-bottom: 1px solid var(--ring);
+}
+.hero .avatar {
+  width: 140px; height: 140px; border-radius: 12px; object-fit: cover;
+  border: 1px solid var(--ring); background: #fff;
+}
+.hero h1 {
+  margin: 0;
+  font-size: 40px; line-height: 1.15; font-weight: 700;
+}
+.subtitle { color: var(--muted); margin-top: .25rem; }
+.pronounce { font-style: italic; color: var(--muted); font-size: 0.95rem; }
+.hero .contact a { color: var(--link); text-decoration: none; }
+.hero .contact a:hover { text-decoration: underline; }
+
+/* Social icons row */
+.icons { display: flex; gap: .5rem; align-items: center; }
+.icon {
+  width: 30px; height: 30px; display: inline-grid; place-items: center;
+  border-radius: 999px; background: var(--card); border: 1px solid var(--ring);
+}
+.icon:hover { transform: translateY(-1px); }
+
+/* Content wrapper */
+.container { max-width: 1050px; margin: 0 auto; }
+
+/* Body sections */
+.page {
+  padding: 1.5rem 2rem;
+}
+.page h2 { margin-top: 0; }
+
+/* Updates box */
+.updates {
+  background: var(--card); border: 1px solid var(--ring);
+  border-radius: 10px; padding: 1rem 1.25rem;
+}
+.updates ul { margin: 0; }
+.updates li { margin: .5rem 0; }
+
+@media (max-width: 720px) {
+  .hero { grid-template-columns: 1fr; }
+  .hero .avatar { width: 120px; height: 120px; }
+  .site-nav { justify-content: center; flex-wrap: wrap; }
+}

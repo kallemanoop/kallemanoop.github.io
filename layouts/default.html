@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <nav class="site-nav container">
+    {% for item in site.nav %}
+      <a href="{{ item.url }}">{{ item.label }}</a>
+    {% endfor %}
+  </nav>
+
+  <!-- Hero -->
+  {% if page.hero != false %}
+  <header class="hero container">
+    <img class="avatar" src="/assets/img/profile.jpg" alt="Profile photo">
+    <div>
+      <h1>{{ site.title }}</h1>
+      <div class="subtitle">
+        Data Science • University of Maryland<br>
+        Interests: ML, LLMs, Mental Health
+      </div>
+      <div class="pronounce">last name: /ˈkɑːlɛm/ (“KAH-lem”)</div>
+      <div class="contact" style="margin-top:.4rem">
+        <a href="mailto:akallem@umd.edu">Contact</a>
+      </div>
+      <div class="icons" style="margin-top:.6rem">
+        {% if site.social.github %}<a class="icon" href="{{ site.social.github }}" aria-label="GitHub">🐱</a>{% endif %}
+        {% if site.social.scholar %}<a class="icon" href="{{ site.social.scholar }}" aria-label="Scholar">🎓</a>{% endif %}
+        {% if site.social.twitter %}<a class="icon" href="{{ site.social.twitter }}" aria-label="X/Twitter">✖️</a>{% endif %}
+        {% if site.social.linkedin %}<a class="icon" href="{{ site.social.linkedin }}" aria-label="LinkedIn">in</a>{% endif %}
+        {% if site.social.youtube %}<a class="icon" href="{{ site.social.youtube }}" aria-label="YouTube">▶️</a>{% endif %}
+      </div>
+    </div>
+  </header>
+  {% endif %}
+
+  <main class="page container">
+    {{ content }}
+  </main>
+</body>
+</html>
