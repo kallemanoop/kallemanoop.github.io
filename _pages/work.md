@@ -22,7 +22,7 @@ Led events such as **ACM Career Compass**, **Parichay**, **Introduction to LLMs*
 Created technical content and workshops on AR/VR, Python, and full-stack systems.
 
 ---
-## 🧠 Skills
+## Skills
 
 **Languages:** Python, C++, R, SQL  
 **ML & DL:** PyTorch, Scikit-learn, TensorFlow, Hugging Face, LangChain  
