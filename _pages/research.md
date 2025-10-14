@@ -8,13 +8,13 @@ author_profile: true
 ### Research Focus
 I explore how **data and intelligence interact with human reasoning** — across three core areas:
 
-<h4>**Language Model Psychology & Moral Compliance**</h4>
+### **Language Model Psychology & Moral Compliance**
 Investigating LLMs’ personality traits, conformity, and moral decision boundaries through interpretability tools such as *logit lens*, *latent probing*, and *causal intervention*.
 
-### • **Retraction Analysis & Scientific Integrity**
+### **Retraction Analysis & Scientific Integrity**
 Built Retractometrics, a bibliometric framework quantifying retraction patterns (G-Index, T-Index, H-Index) across top Indian institutions — revealing systemic misconduct in ~70% of top-50 universities.
 
-### • **Quantitative Finance & Risk Analytics**
+### **Quantitative Finance & Risk Analytics**
 Modeling volatility and market uncertainty using GARCH and machine learning ensembles for adaptive trading strategies.
 
 ## Projects

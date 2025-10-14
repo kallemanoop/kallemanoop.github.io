@@ -13,7 +13,6 @@ author_profile: true
 ### **Research Intern — Gandhi Institute of Technology & Management**
 *Designed **Retractometrics** and conducted a national-scale analysis of retracted research papers.*
 
-
 ### **Vice President — ACM GITAM Student Chapter**
 *Mentored 100+ students in ML, MLOps, and NLP.*  
 *Led events such as **ACM Career Compass** and **Parichay**.*
@@ -22,7 +21,6 @@ author_profile: true
 *Created technical content and workshops on AR/VR, Python, and full-stack systems.*
 
 ---
-
 ## 🧠 Skills
 
 **Languages:** Python, C++, R, SQL  

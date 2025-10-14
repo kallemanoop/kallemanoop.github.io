@@ -10,7 +10,6 @@ author_profile: true
 **Focus:** Machine Learning, NLP, and Interpretability.
 
 ---
-
 ### **Gandhi Institute of Technology and Management, India**
 #### *B.Tech in Computer Science and Engineering (Data Science) (2021–2025)*
 **Key Coursework:** Artificial Neural Networks, Deep Learning, NLP, DVA with R, and Information Retrieval Systems.  
