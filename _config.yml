@@ -1,20 +1,20 @@
 title: "Anoop Reddy Kallem"
 name:  "Anoop Reddy Kallem"
-description: "Data Science @ UMD • LLMs • Interpretability • Quant Finance"
-url: "https://kallemanoop.github.io"         # ← your site URL (no trailing slash)
+description: "Data Science @ UMD"
+url: "https://kallemanoop.github.io"         
 repository: "kallemanoop/kallemanoop.github.io"
 
-# Use Minimal Mistakes (stable)
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "air"                  # clean, academic feel
 
-# Plugins allowed on GitHub Pages
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "air"                 
+
+
 plugins:
   - jekyll-include-cache
   - jekyll-feed
   - jekyll-seo-tag
 
-# Profile card data (shows on pages with author_profile: true)
+
 author:
   name: "Anoop Reddy Kallem"
   avatar: "/images/profile_photo.jpg"               
@@ -31,15 +31,14 @@ author:
       icon: "fab fa-github"
       url: "https://github.com/kallemanoop"
 
-# Navigation from _data/navigation.yml
+
 include: ["_pages"]
 
-# Markdown
+
 markdown: kramdown
 kramdown:
   input: GFM
 
-# Optional: tiny CSS override (keep site airy)
 defaults:
   - scope:
       path: ""
