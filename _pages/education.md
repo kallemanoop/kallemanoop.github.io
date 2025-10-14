@@ -11,8 +11,8 @@ author_profile: true
 
 ---
 ### **Gandhi Institute of Technology and Management, India**
-#### *B.Tech in Computer Science and Engineering (Data Science) (2021–2025)*
+#### B.Tech in Computer Science and Engineering (Data Science) (2021–2025)
 **Key Coursework:** Artificial Neural Networks, Deep Learning, NLP, DVA with R, and Information Retrieval Systems.  
-- **Final-year Thesis:** *Retractometrics – Retraction Analysis in Indian Institutions*  
+- **Final-year Thesis:** Retractometrics – Retraction Analysis in Indian Institutions
 - **Leadership:** Vice President, ACM GITAM; Lead, Meta Developer Circles.
 

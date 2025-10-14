@@ -6,8 +6,8 @@ author_profile: true
 ---
 📍 **Location:** College Park, MD 20742  
 ✉️ **Email:** [akallem@umd.edu](mailto:akallem@umd.edu)  
-💼 **LinkedIn:** [linkedin.com/in/anoopreddy](https://www.linkedin.com/in/kallemanoopreddy/)  
-📊 **GitHub:** [github.com/anoopreddy](https://github.com/kallemanoop)  
+💼 **LinkedIn:** [linkedin.com/in/kallemanoopreddy/](https://www.linkedin.com/in/kallemanoopreddy/)  
+📊 **GitHub:** [github.com/kallemanoop](https://github.com/kallemanoop)  
 
 ---
 ### Let’s Connect
