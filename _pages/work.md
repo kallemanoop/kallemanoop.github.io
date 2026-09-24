@@ -10,14 +10,16 @@ author_profile: true
 ### **Founding AI Engineer - McGowan & Cecil, LLC**
 May 2026 - Present, Laurel, MD
 
-Built lawMCS AI, a case assistant for a personal injury law firm. It reads every document in a case (medical records, scans, photos, emails) and works like a paralegal.
+Built lawMCS AI, a case assistant for a personal injury law firm.
 
-- Multimodal ingestion with per-page text and vision routing, chunking with file and page provenance, and pgvector retrieval.
-- LangGraph RAG agent for cited Q&A over case evidence.
-- Pydantic-validated demand letter generator. The model writes prose; Python computes totals and validates medical codes.
-- Multi-agent autofill for the firm's case management system: a master agent classifies documents and routes them to nine section agents (Meds, Liens, Lost Wages), each with its own schema and write path. Every value is quote-grounded and approved by a human before it is written.
-- Offline evaluation harness with answer keys built from paralegal approve/reject decisions.
-- Traced in Langfuse with PHI masked for HIPAA.
+- A case assistant with multi-modal ingestion and processing capability for a personal injury firm that could
+read medical scans, photos, records and functions like a paralegal.
+- Shipped a LangGraph RAG agent for Q&A over case evidence and generating demand letters using Qwen 3.6 Flash multimodal model paired with HNSW-indexed 1024-dimension embeddings (via Matryoshka truncation) to accelerate semantic search and citation accuracy across text, scans, and photos.
+- Designed a microservice-style multi-agent system: a master agent classifies documents and routes them to nine
+section agents (Meds, Liens, Lost Wages), each working with one section's schema and write path with a
+human-in-loop.
+- Cut autofill latency from 25 to 2.5 minutes via parallel windowing and LLM response caching by content hash.
+
 
 ---
 ## Skills
