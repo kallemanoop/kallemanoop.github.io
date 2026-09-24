@@ -1,12 +1,12 @@
 title: "Anoop Reddy Kallem"
 name:  "Anoop Reddy Kallem"
-description: "Anoop Reddy Kallem builds LLM systems that have to be right, and takes language models apart to see how they decide."
-url: "https://kallemanoop.github.io"
+description: "Data Science @ UMD"
+url: "https://kallemanoop.github.io"         
 repository: "kallemanoop/kallemanoop.github.io"
 
 
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "air"
+minimal_mistakes_skin: "air"                 
 
 
 plugins:
@@ -17,13 +17,13 @@ plugins:
 
 author:
   name: "Anoop Reddy Kallem"
-  avatar: "/images/profile_photo.jpg"
-  bio: "ML engineer. Builds LLM systems, takes language models apart."
+  avatar: "/images/profile_photo.jpg"               
+  bio: "MS Data Science @ UMD"
   location: "College Park, MD, USA"
   links:
     - label: "Email"
       icon: "fas fa-envelope"
-      url: "mailto:anoopkallem.work@gmail.com"
+      url: "akallem@umd.edu"
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/kallemanoopreddy/"
@@ -38,3 +38,9 @@ include: ["_pages"]
 markdown: kramdown
 kramdown:
   input: GFM
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      css: "/assets/css/override.css"

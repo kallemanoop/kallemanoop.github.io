@@ -1,12 +1,10 @@
 main:
-  - title: "Work"
-    url: /work/
+  - title: "Home"
+    url: /
   - title: "Research"
     url: /research/
-  - title: "Projects"
-    url: /projects/
-  - title: "Notes"
-    url: /notes/
+  - title: "Work"
+    url: /work/
   - title: "Education"
     url: /education/
   - title: "Contact"
