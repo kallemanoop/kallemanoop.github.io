@@ -10,8 +10,8 @@ I’m a Data Science graduate student at the University of Maryland. I work with
 My work primarily focuses on:
 1. **Interpretability in LLMs**
 2. **LLMs from a cognitive standpoint**
-3. **Volatility in heteroskedastic samples**
-4. **Very broadly on causal inference**
+3. **Multimodal agentic systems**
+4. **Agent orchestration**
 
 I am also a freelancer- I like to build models and pipelines from scratch. That is how I got into language models when I built my first SLM which took over 12 hours (on a Turing GPU) to train for a mere 6 layers, 4 attn heads and 7M parameters. 
 
